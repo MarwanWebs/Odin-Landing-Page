@@ -32,10 +32,10 @@ nav{
 #hero{
     display: flex ;
     background-color:#1F2937;
-    justify-content: space-around   ;
+    justify-content: center;
     align-items: center;   
     height: 50vh;
-    gap: 0;
+    gap: 100px;
 }
 #hero h2{
     font-size: 48px;
@@ -51,6 +51,7 @@ nav{
     flex-direction: column;
     width: 450px;
 }
+
 #hero button{
     background-color: #3882f6;
     padding-right: 30px  ;
@@ -70,4 +71,64 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+#information{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    gap: 50px;
+}
+#information #box-container{
+    display: flex;
+    gap: 80px;
+}
+#information .box-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#information p{
+    width: 150px;
+    text-align: center;
+}
+#information #header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+#quote{
+    height: 40vh ;
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:100px;
+}
+#quote-container{
+    width: 800px;
+}
+#quote #quote-text{
+    font-size: 36px ;
+    color: #1F2937;
+    font-style:italic;
+    font-weight: light;
+    margin-bottom: 0;
+}
+#quote #quoter{
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: end;
+    margin-top: 0;
+    
 }
