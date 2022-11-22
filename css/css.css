@@ -130,5 +130,36 @@ nav{
     font-size: 24px;
     text-align: end;
     margin-top: 0;
-    
+
+}
+#contact{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact #contact-info{
+    width: 60%;
+    background-color: #3881f6d0;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+#contact p{
+    font-size: 20px;
+    color: #F9FAF8;
+}
+#contact #button button{
+    background-color: #3881f6d0;
+    padding-right: 30px  ;
+    padding-left: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px    ;
+    color: #F9FAF8;
+    font-weight: bolder;
+    border-radius: 10px;   
+    font-size: 17px; 
+    border: 2px solid  #F9FAF8;
 }
