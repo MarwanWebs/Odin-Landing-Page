@@ -139,7 +139,7 @@ nav{
     justify-content: center;
 }
 #contact #contact-info{
-    width: 60%;
+    width: 1152px    ;
     background-color: #3881f6d0;
     height: 150px;
     display: flex;
@@ -162,4 +162,12 @@ nav{
     border-radius: 10px;   
     font-size: 17px; 
     border: 2px solid  #F9FAF8;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937   ;
+    color: white;
+    height: 8vh;
 }
